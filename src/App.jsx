@@ -15,7 +15,6 @@ import gallery4 from "./assets/gallery-image-4.jpg";
 import gallery5 from "./assets/gallery-image-5.jpg";
 import myimg from "./assets/my-img.jpg";
 import cv from "../public/MY_CV.pdf";
-
 function App() {
     useEffect(() => {
         const navToggle = document.querySelector(".nav-toggle");
@@ -351,5 +350,4 @@ function App() {
         </>
     )
 }
-
 export default App
